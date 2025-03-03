@@ -1,0 +1,168 @@
+.header{
+     background-color: #3b5998;
+     width: 100%;
+     height:85px;
+}
+body{
+    margin: 0;
+    font-family:Helvetica, Arial, sans-serif;
+}
+.logo{
+    width: 50%;
+    padding-top: 33px;
+    float: left;
+    
+    
+}
+.login{
+    width: 50%;
+    float: left;
+    
+}
+.logo-text{
+    color: #fff;
+    font-size: 35px;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: Helvetica, Arial, sans-serif;
+    margin-left: 170px;
+    
+}
+.login-label{
+    color: #fff;
+    font-size: 11px;
+    margin-right: 20px;
+    
+}
+.login-controls{
+        margin-left: 115px;
+}
+.login{
+    padding-top: 0px;
+
+}
+.forgotten{
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+    color: #9cb4d8;
+
+}
+.sub-btn{
+    background-color: #4267b2;
+    color: #fff;
+    height: 20px;
+    border-color: #29487d;
+    cursor: pointer;
+    margin-left: 15px;
+   
+}
+.sub-btn:hover{
+    background-color: #29487d;
+    
+}
+.left-section{
+    width: 50%;
+    float: left;
+    padding-left: 27px;
+    height: 302px;
+    padding-top: 30px;
+}
+.right-section{
+    width: 39%;
+    float: left;
+    height: auto;
+    
+}
+.main-body{
+    background: linear-gradient(white,#D3D8E8);
+    width: 100%;
+    height: 500px;
+}
+.image{
+    width: 488px;
+    padding-left: 25px;
+    height: 300px 
+   
+} 
+.para{
+    width: 500px;
+    /* padding-top: 12px; */
+    font-weight: bold;
+    font-size: 17px;
+    padding-left: 25px;
+    font-size: large;
+}
+.number{
+    border-radius: 6px;
+    border-color: #fff;
+    width: 350px;
+    height: 24px;
+    font-size: 17px;
+}
+.f-name{
+    border-radius: 6px;
+    border-color: #fff;
+    width: 165px;
+    height: 24px;
+    font-size: 17px;
+}
+.l-name{
+    border-radius: 6px;
+    border-color: #fff;
+    width: 165px;
+    height: 24px;
+    font-size: 16px;
+}
+.password{
+    border-radius: 6px;
+    border-color: #fff;
+    width: 350px;
+    height: 24px;
+    font-size: 17px;
+}
+.create{
+    padding-left: 27px;
+    height: 30px;
+    padding-top: 35px;
+}
+.birthday{
+    color: gray;
+    font-size: 16px;
+}
+.date{
+    border-color: #fff;
+    border-radius: 6px;
+}
+
+
+.gender-container {
+    display: flex;
+  flex-direction: column;
+    gap: 5px; /* Space between "Gender" and radio buttons */
+}
+
+.gender-label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 8px;
+    color: gray;
+}
+
+/* Keep radio buttons in one line */
+.radio-group {
+    display: flex;
+    margin-left: -4px;
+    color: gray;
+    gap: 10px; /* Space between radio options */
+}
+.submit{
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    color: #fff;
+    background-color: seagreen;
+    cursor: pointer;
+}
+
+
